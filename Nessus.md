@@ -34,6 +34,7 @@
      ```bash
      sha256sum -c sha256sum_nessus
      ```
+     The following message should be returned: `[download_file_name]: OK`
 
 5. **Install Nessus:**
 
