@@ -72,8 +72,8 @@
    - You can obtain a free Nessus Essentials license for personal use from Tenable's website ([https://www.tenable.com/tenable-for-education/nessus-essentials](https://www.tenable.com/tenable-for-education/nessus-essentials)).
    - Select `Register Offline` and click continue.
    - Select `Start a trial of Nessus Expert` and click continue.
-   - Enter the email address you used to sign up for a Nessus Essentials license above.
-   - 
+   - Skip the section where it asks you to enter an email address.
+   - Skip this section?
 
 **Additional Notes:**
 
