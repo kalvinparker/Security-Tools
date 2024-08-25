@@ -12,7 +12,7 @@
    - Locate the **Linux - Debian - amd64** version (assuming you're using a 64-bit Kali system).
    - Download the `.deb` file.
    - Agree to the License Agreement.
-   - Click Checksum next to the download button and copy the SHA256 checksum into `mousepad`.
+   - Click Checksum next to the download button and copy the SHA256 checksum into `text editor`.
 
 2. **Verify Download Integrity (Optional but Recommended):**
 
