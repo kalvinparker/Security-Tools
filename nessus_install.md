@@ -93,6 +93,10 @@
   
 9. **Setup Nessus Scanning**
 
+   - You can create a scan by clicking `Scan` then `Create a new scan` or the `New Scan` button.
+     * Note that if it is `unselectable`, then your plugins are still downloading and you will need to wait.
+    
+   - Select `New Discovery` scan to scan your `IP range`. Note that this will not count towards your 16 licensed IP addresses. Click submit to start the discovery scan.
    - 
 
 **Additional Notes:**
