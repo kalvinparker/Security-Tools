@@ -11,6 +11,8 @@
    - Visit the Tenable Nessus downloads page: [https://www.tenable.com/downloads/nessus?loginAttempted=true](https://www.tenable.com/downloads/nessus?loginAttempted=true)
    - Locate the **Linux - Debian - amd64** version (assuming you're using a 64-bit Kali system).
    - Download the `.deb` file.
+   - Agree to the License Agreement.
+   - Click Checksum next to the download button and copy the SHA256 checksum.
 
 2. **Verify Download Integrity (Optional but Recommended):**
 
@@ -25,7 +27,7 @@
 
      Replace `[downloaded_file_name]` with the actual filename (e.g., `Nessus-10.6.3-debian10_amd64.deb`). The output should match the checksum provided on the Tenable website.
 
-3. **Install Nessus:**
+5. **Install Nessus:**
 
    - Run the following command in the terminal:
 
@@ -37,7 +39,7 @@
 
    - Enter your password when prompted. This command will download and install Nessus using the package manager.
 
-4. **Start Nessus Service:**
+6. **Start Nessus Service:**
 
    - Run the following command in the terminal:
 
@@ -45,7 +47,7 @@
      sudo systemctl start nessusd
      ```
 
-5. **Activate Nessus:**
+7. **Activate Nessus:**
 
    - Open a web browser and navigate to `https://localhost:8834`.
    - You might encounter a security warning about the SSL certificate. Click "Advanced" and then "Accept the Risk and Continue" if you trust the connection.
