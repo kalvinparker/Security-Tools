@@ -21,7 +21,11 @@
      ```Bash
      cd ~/Downloads
      ```
-   - Download the SHA256 checksum from the Nessus website. This ensures the downloaded file is not corrupted.
+   - Read the directory with the following command to show the `downloaded_file_name`:
+     ```Bash
+     ls
+     ```
+   - Copy the SHA256 checksum from the Nessus website. This ensures the downloaded file is not corrupted.
    - Use the `sha256sum` command to verify the checksum: `sha256sum [downloaded_file_name]`
 
      Replace `[downloaded_file_name]` with the actual filename (e.g., `Nessus-10.6.3-debian10_amd64.deb`). The output should match the checksum provided on the Tenable website.
