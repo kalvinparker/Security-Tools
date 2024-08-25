@@ -66,14 +66,34 @@
 
 7. **Activate Nessus:**
 
-   - Open a web browser and navigate to `https://localhost:8834`.
+   - Open a web browser and navigate to:
+
+     ```bash
+     https://localhost:8834
+     ```
+     
    - You might encounter a security warning about the SSL certificate. Click "Advanced" and then "Accept the Risk and Continue" if you trust the connection.
-   - Choose the appropriate registration option (Nessus Essentials for personal use) and follow the on-screen instructions to register and activate Nessus using a license key.
-   - You can obtain a free Nessus Essentials license for personal use from Tenable's website ([https://www.tenable.com/tenable-for-education/nessus-essentials](https://www.tenable.com/tenable-for-education/nessus-essentials)).
    - Select `Register Offline` and click continue.
-   - Select `Start a trial of Nessus Expert` and click continue.
-   - Skip the section where it asks you to enter an email address.
-   - Skip this section?
+   - Select `Nessus Expert` and click continue.
+   - Copy the `challenge code` and select `Offline Registration`.
+   - Generate a license by pasting `challenge code` and `activation code` in the correct boxes and clicking submit.
+     To obtain an `activation code*` click the link for a free Nessus Essentials license for personal use from Tenable's website ([https://www.tenable.com/tenable-for-education/nessus-essentials](https://www.tenable.com/tenable-for-education/nessus-essentials)).
+   - Bookmark page so you can obtain the newest Nessus plugins; and then
+   - Copy/paste `Tenable license` into `Nessus License Key` on the Nessus / Setup page and click continue.
+   - Create a `user account` and click submit.
+   - Activation and Registration complete.
+  
+8. **Update components and download plugins**
+
+   - Go to settings.
+   - Select Software Update.
+   - Select `Update all components` and click save.
+   - Click `Manual Software Update` and select `Update all components` and click Continue.
+   - Keep calm and go make a brew or do something else. This can take a while...
+  
+9. **Setup Nessus Scanning**
+
+   - 
 
 **Additional Notes:**
 
