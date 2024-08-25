@@ -30,8 +30,10 @@
      echo "sha256sum_checksum downloaded_file_name" > sha256sum_nessus
      ```
      Replace `[downloaded_file_name]` with the actual filename (e.g., `Nessus-10.6.3-debian10_amd64.deb`). The output should match the checksum provided on the Tenable website.
-   - Use the `ls` command to check that `sha256sum_nessus` has been added to `downloaded_file_name`.
-     If all has been done correctly, continue with next step. Otherwise do not continue.
+   - Run the following command:
+     ```bash
+     sha256sum -c sha256sum_nessus
+     ```
 
 5. **Install Nessus:**
 
