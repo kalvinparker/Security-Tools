@@ -9,7 +9,8 @@
 1. **Download Nessus:**
 
    - Visit the Tenable Nessus downloads page: [https://www.tenable.com/downloads/nessus?loginAttempted=true](https://www.tenable.com/downloads/nessus?loginAttempted=true)
-   - Locate the **Linux - Debian - amd64** version (assuming you're using a 64-bit Kali system). Download the `.deb` file.
+   - Locate the **Linux - Debian - amd64** version (assuming you're using a 64-bit Kali system).
+   - Download the `.deb` file.
 
 2. **Verify Download Integrity (Optional but Recommended):**
 
