@@ -1,4 +1,4 @@
-# Installing and setting up Kali Linux
+# Installing and setting up Nessus Vulnerability Scanner with Kali Linux (or any other Linux distribution)
 
 **Prerequisites:**
 
@@ -18,22 +18,30 @@
 
    - Open a terminal window.
    - Navigate to your Downloads directory:
+   - 
      ```Bash
      cd ~/Downloads
      ```
+     
    - Read the directory with the following command to show the `downloaded_file_name`:
+   - 
      ```Bash
      ls
      ```
+     
    - Prepare the `SHA256_checksum` and `downloaded_file_name` with `text editor`. This ensures the downloaded file is not corrupted. Use the following command:
+   - 
      ```bash
      echo "sha256sum_checksum downloaded_file_name" > sha256sum_nessus
      ```
+     
      Replace `[downloaded_file_name]` with the actual filename (e.g., `Nessus-10.6.3-debian10_amd64.deb`). The output should match the checksum provided on the Tenable website.
    - Run the following command:
+   - 
      ```bash
      sha256sum -c sha256sum_nessus
      ```
+     
      The following message should be returned: `[download_file_name]: OK`
 
 5. **Install Nessus:**
@@ -62,6 +70,10 @@
    - You might encounter a security warning about the SSL certificate. Click "Advanced" and then "Accept the Risk and Continue" if you trust the connection.
    - Choose the appropriate registration option (Nessus Essentials for personal use) and follow the on-screen instructions to register and activate Nessus using a license key.
    - You can obtain a free Nessus Essentials license for personal use from Tenable's website ([https://www.tenable.com/tenable-for-education/nessus-essentials](https://www.tenable.com/tenable-for-education/nessus-essentials)).
+   - Select `Register Offline` and click continue.
+   - Select `Start a trial of Nessus Expert` and click continue.
+   - Enter the email address you used to sign up for a Nessus Essentials license above.
+   - 
 
 **Additional Notes:**
 
