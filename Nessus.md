@@ -25,9 +25,11 @@
      ```Bash
      ls
      ```
-   - Copy the SHA256 checksum from the Nessus website. This ensures the downloaded file is not corrupted.
-   - Use the `sha256sum` command to verify the checksum: `sha256sum [downloaded_file_name]`
-
+   - Prepare the `SHA256_checksum` and `downloaded_file_name` with `text editor`. This ensures the downloaded file is not corrupted.
+   - Use the following command:
+     ```bash
+     echo" sha256sum_checksum [downloaded_file_name]" > sha256sum_nessus
+     ```
      Replace `[downloaded_file_name]` with the actual filename (e.g., `Nessus-10.6.3-debian10_amd64.deb`). The output should match the checksum provided on the Tenable website.
 
 5. **Install Nessus:**
