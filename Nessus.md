@@ -25,8 +25,7 @@
      ```Bash
      ls
      ```
-   - Prepare the `SHA256_checksum` and `downloaded_file_name` with `text editor`. This ensures the downloaded file is not corrupted.
-   - Use the following command:
+   - Prepare the `SHA256_checksum` and `downloaded_file_name` with `text editor`. This ensures the downloaded file is not corrupted. Use the following command:
      ```bash
      echo" sha256sum_checksum [downloaded_file_name]" > sha256sum_nessus
      ```
