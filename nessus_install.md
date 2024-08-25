@@ -78,31 +78,35 @@
    - Copy the `challenge code` and select `Offline Registration`.
    - Generate a license by pasting `challenge code` and `activation code` in the correct boxes and clicking submit.
      To obtain an `activation code*` click the link for a free Nessus Essentials license for personal use from Tenable's website ([https://www.tenable.com/tenable-for-education/nessus-essentials](https://www.tenable.com/tenable-for-education/nessus-essentials)).
-   - Bookmark page so you can obtain the newest Nessus plugins; and then
+   - Bookmark the plugin link so you can obtain the newest Nessus plugins (for offline use); and then
    - Copy/paste `Tenable license` into `Nessus License Key` on the Nessus / Setup page and click continue.
    - Create a `user account` and click submit.
    - Activation and Registration complete.
   
-8. **Update components and download plugins**
+8. **Update components and download plugins - online**
 
    - Go to settings.
    - Select Software Update.
-   - Select `Update all components` and click save.
+   - Select `Update all components`, change `Update Frequency` to your own or organisation's preference, and click save.
    - Click `Manual Software Update` and select `Update all components` and click Continue.
    - Keep calm and go make a brew or do something else. This can take a while...
   
-9. **Setup Nessus Scanning**
+9. ***Update components and download plugins - offline**
 
-   - You can create a scan by clicking `Scan` then `Create a new scan` or the `New Scan` button.
-     * Note that if it is `unselectable`, then your plugins are still downloading and you will need to wait.
-    
-   - Select `New Discovery` scan to scan your `IP range`. Note that this will not count towards your 16 licensed IP addresses. Click submit to start the discovery scan.
-   - 
+   - Refer to the section: `Active Nessus`, and the page you bookmarked the plugin link.
+   - If not done so already, use the `plugin` link to download the latest plugins. (linked to your license)
+   - Place the downloaded `plugins` in a location the `Update Server` can find it.
+   - Go to settings.
+   - Select Software Update.
+   - Select `Update all components`, and change `Update Frequency` to your own or organisation's preference.
+   - Enter the server location of your `downloaded plugins` in the `Update Server` field and click save.
+   - Click `Manual Software Update` and select `Update all components` and click Continue.
+   - Keep calm and go make a brew or do something else. This can take a while...
 
 **Additional Notes:**
 
 - If you encounter firewall issues, you may need to adjust your firewall rules to allow Nessus to function properly.
 - For further configuration options and advanced usage, refer to the Nessus documentation: [invalid URL removed]
-- Nessus updates are typically available through the Kali package manager. You can update Nessus with `sudo apt update && sudo apt upgrade`.
+- Nessus updates are typically available through the Kali package manager. You can update Nessus with `sudo apt update && sudo apt upgrade`. Make sure to stop the Nessus service first 
 
 **Congratulations! You've successfully installed and activated Nessus on your Kali Linux system.** You can now use Nessus to perform vulnerability scans on target systems. Refer to the Nessus documentation for instructions on launching scans and interpreting results.
