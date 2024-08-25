@@ -19,7 +19,7 @@
    - Open a terminal window.
    - Navigate to your Downloads directory:
      ```Bash
-     `cd ~/Downloads`
+     cd ~/Downloads
      ```
    - Download the SHA256 checksum from the Nessus website. This ensures the downloaded file is not corrupted.
    - Use the `sha256sum` command to verify the checksum: `sha256sum [downloaded_file_name]`
