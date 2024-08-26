@@ -91,7 +91,7 @@
    - Click `Manual Software Update` and select `Update all components` and click Continue.
    - Keep calm and go make a brew or do something else. This can take a while...
   
-9. ***Update components and download plugins - offline**
+9. **Update components and download plugins - offline**
 
    - Refer to the section: `Active Nessus`, and the page you bookmarked the plugin link.
    - If not done so already, use the `plugin` link to download the latest plugins. (linked to your license)
@@ -106,7 +106,7 @@
 **Additional Notes:**
 
 - If you encounter firewall issues, you may need to adjust your firewall rules to allow Nessus to function properly.
-- For further configuration options and advanced usage, refer to the Nessus documentation: [invalid URL removed]
+- For further configuration options and advanced usage, refer to the Nessus documentation: [https://docs.tenable.com/](https://docs.tenable.com/)
 - Nessus updates are typically available through the Kali package manager. You can update Nessus with `sudo apt update && sudo apt upgrade`. Make sure to stop the Nessus service first 
 
 **Congratulations! You've successfully installed and activated Nessus on your Kali Linux system.** You can now use Nessus to perform vulnerability scans on target systems. Refer to the Nessus documentation for instructions on launching scans and interpreting results.
